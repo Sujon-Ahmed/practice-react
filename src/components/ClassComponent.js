@@ -4,7 +4,7 @@ class ClassComponent extends Component {
     render() {
         return (
             <div>
-                <h3>I am from class component! 😍</h3>
+                <h3>Designation: {this.props.designation}</h3>
             </div>
         );
     }
