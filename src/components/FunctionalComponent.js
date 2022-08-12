@@ -1,8 +1,8 @@
 import React from "react";
 
-function FunctionalComponent() {
+function FunctionalComponent({name}) {
     return (
-        <h2>I am from functional component! 😋</h2>
+        <h2>I am {name}</h2>
     );
 }
 
