@@ -1,6 +1,7 @@
 import "./App.css";
 import FunctionalComponent from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent';
+import ArrowFunction from "./components/ArrowFunction";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <FunctionalComponent name="Sujon Ahmed" />
         <ClassComponent designation="Web Application Developer 😍" />
+        <ArrowFunction/>
       </div>
     </div>
   );
