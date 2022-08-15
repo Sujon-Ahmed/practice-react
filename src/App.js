@@ -1,11 +1,11 @@
 import "./App.css";
-import Condition from "./components/Condition";
+import ForceUpdateComponent from "./components/ForceUpdateComponent";
 
 function App() {
   return (
     <div className="App">
       <div>
-      <Condition/>
+      <ForceUpdateComponent/>
       </div>
     </div>
   );
