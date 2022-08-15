@@ -1,19 +1,11 @@
 import "./App.css";
-// import FunctionalComponent from './components/FunctionalComponent';
-// import ClassComponent from './components/ClassComponent';
-// import ArrowFunction from "./components/ArrowFunction";
-
-import StateExample from "./components/StateExample";
+import SetStateExample from "./components/SetStateExample";
 
 function App() {
   return (
     <div className="App">
       <div>
-        {/* <FunctionalComponent name="Sujon Ahmed" />
-        <ClassComponent designation="Web Application Developer 😍" />
-        <ArrowFunction/> */}
-
-        <StateExample />
+        <SetStateExample />
       </div>
     </div>
   );
