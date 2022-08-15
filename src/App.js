@@ -1,11 +1,11 @@
 import "./App.css";
-import SetStateExample from "./components/SetStateExample";
+import Condition from "./components/Condition";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <SetStateExample />
+      <Condition/>
       </div>
     </div>
   );
