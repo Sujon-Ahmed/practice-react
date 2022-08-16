@@ -1,11 +1,11 @@
 import "./App.css";
-import ForceUpdateComponent from "./components/ForceUpdateComponent";
+import RenderHydrate from "./components/RenderHydrate";
 
 function App() {
   return (
     <div className="App">
       <div>
-      <ForceUpdateComponent/>
+        <RenderHydrate />
       </div>
     </div>
   );
