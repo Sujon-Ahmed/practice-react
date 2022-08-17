@@ -1,11 +1,11 @@
 import "./App.css";
-import ReactFindDomNode from "./components/ReactFindDomNode";
+import FormEvents from "./components/FormEvents";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <ReactFindDomNode />
+        <FormEvents />
       </div>
     </div>
   );
