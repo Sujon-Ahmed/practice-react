@@ -1,11 +1,11 @@
 import "./App.css";
-import RenderHydrate from "./components/RenderHydrate";
+import ReactFindDomNode from "./components/ReactFindDomNode";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <RenderHydrate />
+        <ReactFindDomNode />
       </div>
     </div>
   );
